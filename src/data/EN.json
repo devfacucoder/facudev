@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "title": "Facundo Ferreyra | Full Stack Developer"
+  },
+  "language": {
+    "label": "Language",
+    "options": {
+      "es": "Español",
+      "en": "English"
+    }
+  },
+  "start": {
+    "eyebrow": "Personal portfolio",
+    "name": ["Facundo", "Ferreyra"],
+    "role": "Full Stack Developer",
+    "description": "I am a programmer, and I write code to create solutions and help others.",
+    "services": [
+      "API Development",
+      "Micro App Development",
+      "SaaS Development",
+      "Website Development"
+    ],
+    "projectsCta": "View projects",
+    "contactCta": "Get in touch",
+    "stackTitle": "Main stack",
+    "stack": [
+      { "id": "node", "name": "Node.js" },
+      { "id": "express", "name": "Express" },
+      { "id": "react", "name": "React" },
+      { "id": "tailwind", "name": "Tailwind" },
+      { "id": "mongodb", "name": "MongoDB" },
+      { "id": "postgresql", "name": "PostgreSQL" }
+    ],
+    "stackFooter": "Backend · Frontend · Data"
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projects",
+    "subtitle": "Recent work",
+    "repoCta": "View repo",
+    "imageAlt": "Preview of project",
+    "technologiesTitle": "Technologies used",
+    "items": [
+      {
+        "index": "01",
+        "title": "Authentication System",
+        "description": "Complete authentication API with email verification, secure sessions and brute-force protection.",
+        "features": [
+          "Login and Register",
+          "JSON Web Token",
+          "Verify Email",
+          "Rate Limit"
+        ],
+        "technologies": ["Redis", "Node.js", "Docker", "OpenCode"]
+      },
+      {
+        "index": "02",
+        "title": "Notes System",
+        "description": "A system built only to test the auth-services I had already built.",
+        "features": ["Login and Register", "CRUD", "Reused the auth-services"],
+        "technologies": ["auth-services", "Node.js", "react.js"]
+      },
+      {
+        "index": "03",
+        "title": "Desktop Email App for Sending Resumes",
+        "description": "Complete authentication API with email verification, secure sessions and brute-force protection.",
+        "features": [
+          "User and email CRUD",
+          "Send emails in batches",
+          "Email sending",
+          "Desktop interface"
+        ],
+        "technologies": ["Electron.js", "Node.js", "react.js", "tailwindcss"]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "title": "Contact",
+    "subtitle": "Tell me about your project",
+    "description": "Do you have an idea, a project in progress or a question? Write to me with the details and I'll get back to you shortly.",
+    "steps": [
+      "Tell me your idea",
+      "We define the scope",
+      "Let's get to work"
+    ],
+    "socialsTitle": "Socials",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "requiredNote": "All fields are required",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent. Thanks for reaching out, I'll reply shortly.",
+      "errors": {
+        "name": "Enter your name",
+        "emailRequired": "Enter your email",
+        "emailInvalid": "Enter a valid email",
+        "message": "Write your message",
+        "network": "We couldn't connect to the server. Check your connection and try again.",
+        "default": "The message could not be sent. Please try again."
+      }
+    }
+  }
+}

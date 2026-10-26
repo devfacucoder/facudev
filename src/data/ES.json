@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Facundo Ferreyra | Desarrollador Full Stack"
+  },
+  "language": {
+    "label": "Idioma",
+    "options": {
+      "es": "Español",
+      "en": "English"
+    }
+  },
+  "start": {
+    "eyebrow": "Portafolio personal",
+    "name": ["Facundo", "Ferreyra"],
+    "role": "Desarrollador Full Stack",
+    "description": "Soy programador y programo para crear soluciones y ayudar a los demas",
+    "services": [
+      "Desarrollo de APIs",
+      "Desarrollo de Micro Apps",
+      "Desarrollo de SaaS",
+      "Desarrollo de Páginas Web"
+    ],
+    "projectsCta": "Ver proyectos",
+    "contactCta": "Contactar",
+    "stackTitle": "Stack principal",
+    "stack": [
+      { "id": "node", "name": "Node.js" },
+      { "id": "express", "name": "Express" },
+      { "id": "react", "name": "React" },
+      { "id": "tailwind", "name": "Tailwind" },
+      { "id": "mongodb", "name": "MongoDB" },
+      { "id": "postgresql", "name": "PostgreSQL" }
+    ],
+    "stackFooter": "Backend · Frontend · Datos"
+  },
+  "projects": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos",
+    "subtitle": "Trabajos recientes",
+    "repoCta": "Ir al repo",
+    "imageAlt": "Vista previa del proyecto",
+    "technologiesTitle": "Tecnologías usadas",
+    "items": [
+      {
+        "index": "01",
+        "title": "Sistema de Autenticación",
+        "description": "API de autenticación completa con verificación de email, sesiones seguras y protección contra fuerza bruta.",
+        "features": [
+          "Login y Register",
+          "JSON Web Token",
+          "Verify Email",
+          "Rate Limit"
+        ],
+        "technologies": ["Redis", "Node.js", "Docker", "OpenCode"]
+      },
+      {
+        "index": "02",
+        "title": "Sistema de Notas",
+        "description": "Sistema creado solo para probar el Auth-services que ya construi",
+        "features": ["Login y Register", "CRUD", "reutilize el auth-services"],
+        "technologies": ["auth-services", "Node.js", "react.js"]
+      },
+      {
+        "index": "03",
+        "title": "App de Escritorio para mandar Emails, Orientado a mandar CV",
+        "description": "API de autenticación completa con verificación de email, sesiones seguras y protección contra fuerza bruta.",
+        "features": [
+          "CRUD de user,emails",
+          "Mandar Correo por turnos",
+          "envio de correos",
+          "Interfaz de escritorio"
+        ],
+        "technologies": ["Electron.js", "Node.js", "react.js", "tailwindcss"]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Hablemos",
+    "title": "Contacto",
+    "subtitle": "Contame tu proyecto",
+    "description": "¿Tenés una idea, un proyecto en marcha o una consulta? Escribime con los detalles y te respondo a la brevedad.",
+    "steps": ["Contame tu idea", "Definimos el alcance", "Manos a la obra"],
+    "socialsTitle": "Redes",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "vos@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Contame sobre tu proyecto...",
+      "requiredNote": "Todos los campos son obligatorios",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "Mensaje enviado. Gracias por escribirme, te respondo a la brevedad.",
+      "errors": {
+        "name": "Ingresá tu nombre",
+        "emailRequired": "Ingresá tu email",
+        "emailInvalid": "Ingresá un email válido",
+        "message": "Escribí tu mensaje",
+        "network": "No pudimos conectar con el servidor. Revisá tu conexión e intentá de nuevo.",
+        "default": "No se pudo enviar el mensaje. Intentá de nuevo."
+      }
+    }
+  }
+}
