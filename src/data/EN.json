@@ -62,8 +62,8 @@
       },
       {
         "index": "03",
-        "title": "Desktop Email App for Sending Resumes",
-        "description": "Complete authentication API with email verification, secure sessions and brute-force protection.",
+        "title": "E-Catero",
+        "description": "Desktop app for sending emails with attachments, mainly CVs.",
         "features": [
           "User and email CRUD",
           "Send emails in batches",

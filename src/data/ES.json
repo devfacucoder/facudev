@@ -62,8 +62,8 @@
       },
       {
         "index": "03",
-        "title": "App de Escritorio para mandar Emails, Orientado a mandar CV",
-        "description": "API de autenticación completa con verificación de email, sesiones seguras y protección contra fuerza bruta.",
+        "title": "E-Cartero",
+        "description": "App de escritorio para Enviar email con archivos, principalmente CV",
         "features": [
           "CRUD de user,emails",
           "Mandar Correo por turnos",
